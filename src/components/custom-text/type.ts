@@ -1,0 +1,41 @@
+import { TextProps } from 'react-native';
+
+export type CustomTextProps = TextProps & {
+  h1?: boolean;
+  h2?: boolean;
+  h3?: boolean;
+  h4?: boolean;
+  h5?: boolean;
+  h6?: boolean;
+  h7?: boolean;
+  h8?: boolean;
+  h9?: boolean;
+  h10?: boolean;
+  h11?: boolean;
+  h12?: boolean;
+  h13?: boolean;
+  h14?: boolean;
+  h15?: boolean;
+  h16?: boolean;
+  h17?: boolean;
+  h18?: boolean;
+  h19?: boolean;
+  fw200?: boolean;
+  fw300?: boolean;
+  fw400?: boolean;
+  fw500?: boolean;
+  fw600?: boolean;
+  fw700?: boolean;
+  primary?: boolean;
+  secondary?: boolean;
+  secondarybtn?: boolean;
+  color?: string;
+  center?: boolean;
+  light?: boolean;
+  medium?: boolean;
+  regular?: boolean;
+  semiBold?: boolean;
+  bold?: boolean;
+
+  textAlign?: 'left' | 'right' | 'center' | 'justify';
+};
